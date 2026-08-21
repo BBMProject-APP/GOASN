@@ -1,0 +1,6 @@
+{
+  "name": "CAT CPNS",
+  "description": "Aplikasi Latihan Soal CAT CPNS Interaktif dengan Sistem Token Iklan AdMob, scoring TWK/TIU berbasis Standar (+5), dan scoring TKP berbasis Skala (1-5).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema Aplikasi Utama Anda -->
+    <style name="Theme.CATCPNSApp" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- ... tema utama Anda ... -->
+    </style>
+
+    <!-- 🚀 TEMA KHUSUS SPLASH SCREEN -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Warna background saat aplikasi pertama dibuka -->
+        <item name="windowSplashScreenBackground">@color/white</item> <!-- atau warna tema Anda -->
+
+        <!-- Logo di tengah splash screen -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Tema yang dipakai setelah splash screen selesai (kembali ke tema utama) -->
+        <item name="postSplashScreenTheme">@style/Theme.CATCPNSApp</item>
+    </style>
+</resources>

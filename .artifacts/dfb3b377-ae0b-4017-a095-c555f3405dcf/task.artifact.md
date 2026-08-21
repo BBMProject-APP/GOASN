@@ -1,0 +1,9 @@
+- [x] Fix Core errors in `MainActivity.kt`
+- [x] Repair `AkunScreen.kt` (Type inference, scopes, icons)
+- [x] Repair `MateriScreen.kt` (Type inference, scopes, icons)
+- [x] Fix `StatistikScreen.kt` (Explicit lambda types)
+- [x] Clean up `QuizViewModel.kt` (Unused code, lint warnings)
+- [x] Fix `isLoading` and `setContent` errors in `MainActivity.kt`
+    - [x] Add `isLoading` to `QuizViewModel`
+    - [x] Fix lambda types in `MainActivity.kt`
+- [x] Project-wide verification build
